@@ -1,1 +1,2 @@
 seleniumbase>=4.56.1
+typesafe-sdk>=0.7.4
