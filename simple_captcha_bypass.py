@@ -5,9 +5,9 @@ from seleniumbase import sb_cdp
 def bypass_captcha_on_url(url):
     sb = sb_cdp.Chrome()
     sb.goto(url)
-    sb.sleep(2.5)
+    sb.sleep(3)
     sb.solve_captcha()
-    sb.sleep(2.5)
+    sb.sleep(3)
     sb.quit()
 
 
